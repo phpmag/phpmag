@@ -1,2 +1,3 @@
 # phpmag
 ## Make sure to install HTMLPurifier! Still in beta!
+# CONTAINS MAJOR SECURITY VULNERABILITY: NO LOGIN YET!!! DO NOT USE IN PRODUCTION ENVIRONMENT!!!
