@@ -1,3 +1,6 @@
 # phpmag
-## Make sure to install HTMLPurifier! Still in beta!
-# CONTAINS MAJOR SECURITY VULNERABILITY: NO LOGIN YET!!! DO NOT USE IN PRODUCTION ENVIRONMENT!!!
+## Install
+* Run `INSTALL.sql`
+* Make sure to open `init.php` and change the admin password!
+* Enjoy!
+## Do not remove the `Powered by phpmag`!
