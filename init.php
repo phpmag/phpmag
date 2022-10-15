@@ -2,12 +2,6 @@
 $name = 'Some Random Magazine';
 $root = '/'; // Add / to end!
 $conn = mysqli_connect('localhost', 'root', 'root', 'phpmagazine');
-######################
-$devmode = true;     #
-# WANRING! This will #
-# make everyone an   #
-# administrator!!!   #
-######################
-if ($devmode) {
-    $_SESSION['loggedin'] = true;
-}
+session_name('PHPMAG');
+session_start();
+$admin_pwd = 'Hello';
